@@ -5,10 +5,9 @@
     }
   },
   "routes": [
-    { "src": "/api/index", "dest": "/api/index.php" }
-  ],
-  "rewrites": [
-    { "source": "/api/index", "destination": "/api/index.php" }
+    {
+      "src": "/api/index",
+      "dest": "/api/index.php"
+    }
   ]
 }
-
